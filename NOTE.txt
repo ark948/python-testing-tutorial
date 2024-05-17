@@ -3,4 +3,9 @@ unittest ensures small pieces of program (called units) work correctly.
 
 the unittest provides xUnit terminology
 
-1. using assertions, we will test for expected outcomes, such as values and exceptions that must be raised
+using assertions, we will test for expected outcomes, such as values and exceptions that must be raised
+
+test fixtures (such as setUp and tearDown)
+By definition, a test fixture is a function or method that runs before and after a block of test code executes. In other words, it is a step carried out before or after a test.
+
+test fixtures can be module level, class level, or method level
