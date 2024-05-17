@@ -1,0 +1,6 @@
+unittest is python builtin.
+unittest ensures small pieces of program (called units) work correctly. 
+
+the unittest provides xUnit terminology
+
+1. using assertions, we will test for expected outcomes, such as values and exceptions that must be raised
