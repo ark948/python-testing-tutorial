@@ -24,3 +24,5 @@ cmd> python -m unittest test_package.test_module.TestClass -v
 
 4. run a signle test method:
 cmd> python -m unittest test_package.test_module.TestClass.test_method -v
+
+- skipping unittest assert methods

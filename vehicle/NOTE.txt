@@ -1,0 +1,7 @@
+the alert function takes the speed of the vehicle from the speed function.
+speed returns a random number between 40 and 120.
+
+if speed is too slow (below 60) or too fast (above 100), an alert is made (returns true).
+
+the return value of the speed() is varied. therefore the result is unpredictable, and cannot be easily tested.
+
