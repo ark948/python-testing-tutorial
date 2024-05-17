@@ -9,3 +9,18 @@ test fixtures (such as setUp and tearDown)
 By definition, a test fixture is a function or method that runs before and after a block of test code executes. In other words, it is a step carried out before or after a test.
 
 test fixtures can be module level, class level, or method level
+
+if there are many test modules in tests folder, using unittest.main() may not be efficient.
+in such case, using unittest commands is better:
+
+1. run all tests (in the directory with tests folder):
+cmd> python -m unittest discover -v
+
+2. run a single test module: (DO NOT INCLUDE 'py')
+cmd> python -m unittest test_package.test_module -v
+
+3. run a single test class:
+cmd> python -m unittest test_package.test_module.TestClass -v
+
+4. run a signle test method:
+cmd> python -m unittest test_package.test_module.TestClass.test_method -v
