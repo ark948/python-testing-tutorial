@@ -26,3 +26,7 @@ cmd> python -m unittest test_package.test_module.TestClass -v
 cmd> python -m unittest test_package.test_module.TestClass.test_method -v
 
 - skipping unittest assert methods
+
+- advanced parts of unittesting:
+Mock
+Patch
