@@ -1,0 +1,9 @@
+Because the temperature() method of the Sensor returns a random temperature, it’ll be difficult to test various scenarios to ensure the Alarm class works properly.
+
+To resolve it, you can define a stub for the Sensor class called TestSensor. The TestSensor has the temperature property that returns a value provided when its object is initialized.
+
+(Folder structure in this part is a mess.)
+
+I will put everything in one place.
+
+to create stubs more easily, we can use the MockMagic object
